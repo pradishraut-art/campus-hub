@@ -43,3 +43,49 @@ button{
 button:hover{
 background-color:white;
 }
+
+.start-btn{
+
+    color: #0e0c0a;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius : 14px;
+    margin:0px;
+    background-color:orange;
+    text-decoration: none;
+    margin-top:10px;  
+}
+.start-btn:hover{
+    background-color: black;
+    color:orange;
+    cursor:pointer;
+    
+}
+.hero{
+    
+    color: white;
+    
+    background-color: #0f0909;
+    min-height: 400px;
+    padding :0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    margin-top:10px;
+    
+}
+.hero p{
+    max-width:700px;
+    
+
+}
+.hero h1{
+    font-size:40px;
+    font-weight: 500;
+    margin-bottom:20px;
+    text-align:center;
+    
+    
+}
