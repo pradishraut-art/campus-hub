@@ -10,6 +10,7 @@ box-shadow: 9px 4px 10px gray;
 font-size: 28px;
 font-weight: 900;
 color: orange;
+text-decoration: none;
 }
 
 .nav-list{
@@ -100,18 +101,22 @@ background-color:white;
 }
 
 .slids{
-        margin: 0;
+    text-decoration: none;
+    margin: 0;
     border: 2px solid black;
-    height: 200px;
+    height: 250px;
     width: 200px;
-    padding: 30px 50px;
+    padding: 60px  20px 30px;
     border-radius: 12px;
     box-sizing: border-box;
-
+    gap: 20px;
     display: flex;
-   
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     position: relative;
+    box-shadow: 0 4px 10px gray;
+    transition: transform 0.3s;
 }
 .slids::before {
 
@@ -122,11 +127,12 @@ background-color:white;
     width:80px;
     height:80px;
 
-    border: 3px solid black;
+    /* border: 3px solid black; */
     border-radius:50%;
 
     background-color:white;
-
+    border: 3px solid orange;
+    transition: background-color 0.3s;
     top : 0;
     left:50%;
 
@@ -139,3 +145,30 @@ background-color:white;
     margin-top : 50px;
   
 }
+.slids span{
+    font-size: 40px;
+     /* margin-top:50px;   */
+    position: absolute;
+    top : -6px ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slids h2{
+    font-weight :500;
+    margin:0;
+    text-align:center;
+    
+}
+.slids p{
+    text-align:center;
+    line-height:1.5;
+}
+.slids:hover{
+    transform: translateY(-5px);
+   
+    box-shadow:10px 10px #495254;
+}
+.slids:hover::before{
+background-color: #fff3d6;
+}
+
