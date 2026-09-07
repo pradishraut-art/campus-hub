@@ -1,3 +1,6 @@
+
+/* Navigation Bar */
+
 .navbar{
 display: flex;
 justify-content: space-between;
@@ -34,15 +37,17 @@ transition: color 0.3s;
     color: orange;
     cursor: pointer;
 }
-button{
+.signup-btn{
     border-radius: 8px;
     padding: 06px 12px;
     border:2px solid rgb(18, 1, 1);
     background-color: orange;
     cursor: pointer;
+    color: #060504;
+    text-decoration: none;
 }
-button:hover{
-background-color:white;
+.signup-btn:hover{
+    background-color:white;
 }
 
 .start-btn{
@@ -63,6 +68,9 @@ background-color:white;
     cursor:pointer;
     
 }
+
+/* Hero Section */
+
 .hero{
     
     color: white;
@@ -99,6 +107,9 @@ background-color:white;
     margin: 20px;
     align-items: center;
 }
+
+/* CARDS */
+
 
 .slids{
     text-decoration: none;
